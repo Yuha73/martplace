@@ -1,3 +1,140 @@
 @import 'vars';
 @import 'global';
 @import 'fonts';
+
+
+.header__top{
+    width: 100%;
+    background-color: #eef1f3;
+}
+
+.header__top-inner{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    a{
+        display: flex;
+        align-items: center;
+        color: #0674ec;
+    }
+        span{
+            padding-left: 6px;
+            color: #000;
+         }
+}
+
+.header__btn{
+    width: 140px;
+    background-color: #0674ec;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: auto;
+    a{
+        color: #fff;
+    }
+}
+
+.header__user-icons{
+    margin: 0 30px;
+}
+
+
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .user__avatar{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-right: 22px;
+        cursor: pointer;
+    }
+}
+
+.user__inner{
+      a{
+        display: block;
+        font-weight: 500;
+    }
+    .user__name{
+        color: #333;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .user__balance{
+        color: #0674ec;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+.header__menu-inner{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-link{
+    display: inline-block;
+    & + .header__menu-link{
+        margin-left: 34px;
+    }
+    a{
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #333;
+        font-weight: 500;
+    }
+}
+
+.header__search{
+    color: #898f96;
+    max-width: 360px;
+    position: relative;
+    width: 100%;         
+        input{
+            display: block;
+            width: 100%;
+            border-radius: 25px;
+            height: 45px;
+            border: 1px solid #d9dfe5;
+            font-size: 15px;
+            padding-left: 25px;
+            padding-right: 95px;
+            outline: transparent;
+            &::placeholder{
+            color: #d9dfe5;
+            }
+        }
+        button{
+            position: absolute;
+            border: none;
+            width: 70px;
+            height: 100%;
+            border-radius: 25px;
+            background-color: #0674ec;
+            right: 0;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline: transparent;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+}
+
