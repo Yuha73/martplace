@@ -1,12 +1,13 @@
 @font-face {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Quicksand', sans-serif;
   src:  url('../fonts/Quicksand-Regular.woff2') format('woff2'),
         url('../fonts/Quicksand-Regular.woff') format('woff');
+  font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Quicksand', sans-serif;
   src:  url('../fonts/Quicksand-Bold.woff2') format('woff2'),
         url('../fonts/Quicksand-Bold.woff') format('woff');
   font-weight: 700;
@@ -14,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Quicksand', cursive;
+  font-family: 'Quicksand', sans-serif;
   src:  url('../fonts/Quicksand-Medium.woff2') format('woff2'),
         url('../fonts/Quicksand-Medium.woff') format('woff');
   font-weight: 500;
